@@ -1,45 +1,79 @@
 body {
     background-color: #0a0c10;
     color: #94a3b8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
 #naslov {
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 2rem;
     color: #f4f6f9;
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
 }
 
 #deskripcija {
     text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
 #fusnota {
     text-align: center;
     color: #475569;
     font-size: 0.8rem;
+    width: 100%;
+    margin-top: 1rem;
 }
 
 #ajet {
-   margin-top: 1rem;
+    margin: 0;
+}
+
+.divizija {
+    border: 1px solid #004d43;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    min-height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #141923;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.dugme-kontejner {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
 }
 
 button {
-    text-align: center;
-    margin-left: 44rem;
-    margin-top: 2rem;
     background-color: #03b490;
     border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-    max-width: 100px;
+    padding: 12px 24px;
     color: #0a0c10;
     border: 1px solid #004d43;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
     font-family: 'Cinzel', serif;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-block;
 }
-
 
 button:hover {
     background-color: rgb(0, 214, 186);
@@ -52,19 +86,15 @@ button:active {
     box-shadow: 0 0 20px rgba(0, 255, 204, 0.4);
 }
 
-
-.divizija {
-    border: 1px solid #004d43;
-    border-radius: 8px;
-    padding: 20px;
-    width: 90%;
-    max-width: 400px;
-    min-height: 150px;
-    text-align: center;
-    margin: 0 auto;
-    background-color: #141923;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+@media (max-width: 600px) {
+    #naslov {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+    
+    .divizija {
+        width: 95%;
+        padding: 15px;
+        min-height: 120px;
+    }
 }
-
