@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Cinzel', serif;
 }
 
 #naslov {
@@ -27,7 +27,6 @@ body {
     width: 100%;
     margin-top: 0;
     margin-bottom: 2rem;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .divizija {
@@ -69,7 +68,6 @@ button {
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
-    font-family: 'Cinzel', serif;
     cursor: pointer;
     font-size: 1rem;
 }
