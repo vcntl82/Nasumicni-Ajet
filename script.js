@@ -10,7 +10,8 @@ const prevodiociBaza = {
     en: [
         {kod: "en.sahih", ime: "Sahih International"},
         {kod: "en.itani", ime: "Talal Itani (Clear Qur'an)"},
-        {kod: "en.asad", ime: "Muhammad Asad"}
+        {kod: "en.asad", ime: "Muhammad Asad"},
+        {kod: "en.yusufali", ime: "Abdullah Yusuf Ali"}
     ]
 };
 
