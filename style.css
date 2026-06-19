@@ -21,6 +21,43 @@ body {
     width: 100%;
 }
 
+.jezik-kontejner {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    gap: 15px;
+    margin-top: 1rem;
+    margin-left: 12rem;
+}
+#izborJezika {
+    background-color: #141923;
+    color: #94a3b8;
+    border: 2px solid #004d43;
+    border-radius: 6px;
+    text-align: center;
+}
+#izborJezika:focus,
+#izborJezika:active {
+    outline: none;       
+    box-shadow: none;   
+    border-color: #03b490; 
+}
+
+#izborPrevodioca {
+    background-color: #141923;
+    color: #94a3b8;
+    border: 2px solid #004d43;
+    border-radius: 6px;
+    text-align: center;
+}
+#izborPrevodioca:focus,
+#izborPrevodioca:active {
+    outline: none;       
+    box-shadow: none;   
+    border-color: #03b490; 
+}
+
+
 #deskripcija {
     text-align: center;
     width: 100%;
@@ -107,3 +144,4 @@ button:active {
         min-height: 120px;
     }
 }
+

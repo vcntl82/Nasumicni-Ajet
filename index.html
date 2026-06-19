@@ -9,15 +9,24 @@
 
     <h3 id="naslov">Nasumični Ajet</h3>
     <p id="deskripcija">Generiši jedan od preko 5.500 ajeta iz časnog Kur'ana.</p>
+
     
     <div class="divizija">
         <p id="ajet"></p>
     </div>
     
-    <p id="fusnota">Jezik: Bosanski   |   Prijevod: Besim Korkut</p>
+   <div class="jezik-kontejner">
+    <select id="izborJezika" onchange="osvjeziPrevoditelje()">
+        <option value="bs">Bosanski</option>
+        <option value="en">English</option>
+    </select>
+
+    <select id="izborPrevodioca" onchange="promjenaPrevodioca()">
+        </select>
+</div>
 
     <div class="dugme-kontejner">
-        <button onclick="prikaziAjet()">Generiši ajet</button>
+        <button id = "dugme", onclick="prikaziAjet()">Generiši ajet</button>
     </div>
 
     <script src="script.js"></script>
